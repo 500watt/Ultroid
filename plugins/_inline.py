@@ -33,7 +33,7 @@ else:
 if udB.get("INLINE_PIC"):
     _file_to_replace = udB.get("INLINE_PIC")
 else:
-    _file_to_replace = "resources/extras/inline.gif"
+    _file_to_replace = "resources/extras/inline.jpg"
 # ============================================#
 
 
