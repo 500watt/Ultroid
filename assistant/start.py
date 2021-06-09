@@ -118,7 +118,7 @@ async def ultroid(event):
 @owner
 async def botstat(event):
     ok = len(get_all_users())
-    msg = """Ultroid Assistant - Stats
+    msg = """Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
