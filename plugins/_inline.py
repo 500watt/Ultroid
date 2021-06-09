@@ -56,13 +56,13 @@ async def e(o):
         )
         res = [
             await b.article(
-                title="My Assisatant",
+                title="My Assistant",
                 url="",
-                description="Userbot | Telethon ",
+                description="(┛✧Д✧))┛彡┻━┻ ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="Support Group", url="t.me/suisei_hoshimati")],
                     [
                         Button.url(
                             text="Repo",
@@ -72,7 +72,7 @@ async def e(o):
                 ],
             ),
         ]
-        await o.answer(res, switch_pm=f"👥 PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"My Master", switch_pm_param="start")
 
 
 @in_pattern("ultd")
