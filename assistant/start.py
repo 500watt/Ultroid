@@ -103,12 +103,12 @@ async def ultroid(event):
         get_string("ast_3").format(OWNER_NAME),
         buttons=[
             [
-                Button.inline("Language 🌐", data="lang"),
-                Button.inline("Sᴇᴛᴛɪɴɢs ⚙️", data="setter"),
+                Button.inline("Language", data="lang"),
+                Button.inline("Sᴇᴛᴛɪɴɢs", data="setter"),
             ],
             [
-                Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+                Button.inline("Sᴛᴀᴛs", data="stat"),
+                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ", data="bcast"),
             ],
         ],
     )
