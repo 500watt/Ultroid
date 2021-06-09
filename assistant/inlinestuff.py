@@ -155,9 +155,9 @@ async def repo(e):
             text="",
             buttons=[
                 [
-                    Button.url("Repo", url="https://github.com/TeamUltroid/Ultroid"),
+                    Button.url("Rules", url="t.me/suisei_rules"),
                     Button.url(
-                        "Addons", url="https://github.com/TeamUltroid/UltroidAddons"
+                        "Me", url="https://t.me/suisei_hoshimati"
                     ),
                 ],
                 [Button.url("Support", url="t.me/suisei_hoshimati_bot")],
