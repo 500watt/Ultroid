@@ -233,12 +233,12 @@ async def _(e):
         [
             Button.switch_inline(
                 "Sᴇᴀʀᴄʜ Oɴ Gᴏᴏɢʟᴇ",
-                query="go TeamUltroid",
+                query="go hoshimati suisei",
                 same_peer=True,
             ),
             Button.switch_inline(
                 "Sᴇᴀʀᴄʜ Oɴ Yᴀʜᴏᴏ",
-                query="yahoo TeamUltroid",
+                query="yahoo Hoshimati suisei",
                 same_peer=True,
             ),
         ],
@@ -506,7 +506,7 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© My Assistant"
     buttons = [
         [
             Button.inline(
