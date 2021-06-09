@@ -149,7 +149,7 @@ async def _(e):
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Ultroid Userbot",
+            title="Suisei Hoshimati Assisstant",
             description="Userbot | Telethon",
             thumb=wb(ultpic, 0, "image/jpeg", []),
             text="",
@@ -160,7 +160,7 @@ async def repo(e):
                         "Addons", url="https://github.com/TeamUltroid/UltroidAddons"
                     ),
                 ],
-                [Button.url("Support", url="t.me/UltroidSupport")],
+                [Button.url("Support", url="t.me/suisei_hoshimati_bot")],
             ],
         ),
     ]
